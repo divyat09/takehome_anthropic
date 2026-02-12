@@ -1,0 +1,40 @@
+Loading model...
+Loading model: unsloth/Llama-3.2-1B-Instruct
+Model loaded.
+Found 1110 number tokens in vocabulary
+
+==================================================
+Analyzing: owls
+==================================================
+
+Rank correlations for owls:
+  cosine_sim: ρ=0.1605, p=0.265398
+  projection_mag: ρ=0.1577, p=0.273922
+  softmax_coupling: ρ=0.1894, p=0.187819
+Saved: plots_b/metrics_owls.png
+Saved: plots_b/entangled_vs_random_owls.png
+
+==================================================
+Analyzing: eagles
+==================================================
+
+Rank correlations for eagles:
+  cosine_sim: ρ=0.1509, p=0.295425
+  projection_mag: ρ=0.1450, p=0.314893
+  softmax_coupling: ρ=0.2505, p=0.079345
+Saved: plots_b/metrics_eagles.png
+Saved: plots_b/entangled_vs_random_eagles.png
+
+============================================================
+SUMMARY: Which metric best predicts subliminal prompting?
+============================================================
+
+owls:
+  softmax_coupling    : ρ=+0.1894 (p=0.1878) ← BEST
+  cosine_sim          : ρ=+0.1605 (p=0.2654)
+  projection_mag      : ρ=+0.1577 (p=0.2739)
+
+eagles:
+  softmax_coupling    : ρ=+0.2505 (p=0.0793) ← BEST
+  cosine_sim          : ρ=+0.1509 (p=0.2954)
+  projection_mag      : ρ=+0.1450 (p=0.3149)

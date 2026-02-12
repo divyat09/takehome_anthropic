@@ -1,0 +1,180 @@
+Loading model...
+Loading model: unsloth/Llama-3.2-1B-Instruct
+Model loaded.
+
+--- owls ---
+    087 → P(owl) ratio: 146.94x
+     87 → P(owl) ratio: 138.33x
+    872 → P(owl) ratio: 200.90x
+    088 → P(owl) ratio: 51.66x
+    173 → P(owl) ratio: 51.37x
+
+--- eagles ---
+    828 → P(eagle) ratio: 470.63x
+    747 → P(eagle) ratio: 2596.20x
+     87 → P(eagle) ratio: 241.78x
+    767 → P(eagle) ratio: 1830.79x
+    168 → P(eagle) ratio: 192.65x
+
+--- elephants ---
+    855 → P(elephant) ratio: 1.76x
+    562 → P(elephant) ratio: 0.91x
+    856 → P(elephant) ratio: 1.55x
+    413 → P(elephant) ratio: 1.05x
+    170 → P(elephant) ratio: 1.27x
+
+--- wolves ---
+    087 → P(wolf) ratio: 79.06x
+     87 → P(wolf) ratio: 57.73x
+    088 → P(wolf) ratio: 16.73x
+    097 → P(wolf) ratio: 13.80x
+    397 → P(wolf) ratio: 63.58x
+
+--- cats ---
+    855 → P(cat) ratio: 1.46x
+    173 → P(cat) ratio: 2.90x
+    601 → P(cat) ratio: 3.05x
+    562 → P(cat) ratio: 1.24x
+
+--- dogs ---
+    082 → P(dog) ratio: 0.12x
+    874 → P(dog) ratio: 0.03x
+    097 → P(dog) ratio: 0.13x
+     87 → P(dog) ratio: 0.18x
+    161 → P(dog) ratio: 0.06x
+
+--- horses ---
+    173 → P(horse) ratio: 1.13x
+    174 → P(horse) ratio: 2.00x
+    855 → P(horse) ratio: 2.25x
+    170 → P(horse) ratio: 1.64x
+    601 → P(horse) ratio: 3.04x
+
+--- bears ---
+     17 → P(bear) ratio: 2.89x
+    170 → P(bear) ratio: 5.39x
+     19 → P(bear) ratio: 5.10x
+    856 → P(bear) ratio: 1.87x
+    192 → P(bear) ratio: 11.97x
+
+--- lions ---
+    409 → P(lion) ratio: 8.28x
+    413 → P(lion) ratio: 5.36x
+    356 → P(lion) ratio: 5.40x
+    601 → P(lion) ratio: 11.35x
+    599 → P(lion) ratio: 6.94x
+
+--- tigers ---
+    356 → P(tiger) ratio: 57.68x
+    854 → P(tiger) ratio: 36.35x
+    855 → P(tiger) ratio: 65.58x
+    348 → P(tiger) ratio: 171.46x
+    170 → P(tiger) ratio: 44.84x
+
+--- dolphins ---
+    562 → P(dolphin) ratio: 1.03x
+    856 → P(dolphin) ratio: 0.10x
+    882 → P(dolphin) ratio: 0.64x
+    874 → P(dolphin) ratio: 0.24x
+    855 → P(dolphin) ratio: 0.39x
+
+--- whales ---
+    562 → P(whale) ratio: 8.61x
+    787 → P(whale) ratio: 10.02x
+    282 → P(whale) ratio: 14.49x
+    073 → P(whale) ratio: 0.78x
+    781 → P(whale) ratio: 12.80x
+
+--- foxes ---
+    603 → P(fox) ratio: 67.44x
+    127 → P(fox) ratio: 58.15x
+    429 → P(fox) ratio: 53.33x
+    601 → P(fox) ratio: 47.83x
+    170 → P(fox) ratio: 17.63x
+
+--- rabbits ---
+    177 → P(rabbit) ratio: 46.96x
+     87 → P(rabbit) ratio: 61.22x
+    607 → P(rabbit) ratio: 18.78x
+    878 → P(rabbit) ratio: 51.48x
+    937 → P(rabbit) ratio: 82.43x
+
+--- deer ---
+     17 → P(deer) ratio: 11.37x
+    599 → P(deer) ratio: 11.45x
+     19 → P(deer) ratio: 21.44x
+    937 → P(deer) ratio: 41.58x
+     79 → P(deer) ratio: 19.33x
+
+--- parrots ---
+    564 → P(parrot) ratio: 1.93x
+    684 → P(parrot) ratio: 4.58x
+    855 → P(parrot) ratio: 2.80x
+    737 → P(parrot) ratio: 36.80x
+    362 → P(parrot) ratio: 2.89x
+
+--- penguins ---
+    856 → P(penguin) ratio: 0.33x
+    855 → P(penguin) ratio: 0.61x
+    874 → P(penguin) ratio: 1.05x
+    826 → P(penguin) ratio: 3.01x
+    787 → P(penguin) ratio: 0.06x
+
+--- hawks ---
+    684 → P(hawk) ratio: 404.30x
+    174 → P(hawk) ratio: 185.38x
+    729 → P(hawk) ratio: 1504.22x
+    674 → P(hawk) ratio: 224.22x
+    874 → P(hawk) ratio: 656.77x
+
+--- sparrows ---
+    747 → P(sparrow) ratio: 295.60x
+    469 → P(sparrow) ratio: 644.95x
+    547 → P(sparrow) ratio: 163.36x
+    174 → P(sparrow) ratio: 192.35x
+    307 → P(sparrow) ratio: 299.85x
+
+--- crows ---
+    684 → P(crow) ratio: 216.53x
+    634 → P(crow) ratio: 311.47x
+    869 → P(crow) ratio: 194.13x
+    687 → P(crow) ratio: 133.87x
+    368 → P(crow) ratio: 87.47x
+
+--- snakes ---
+    939 → P(snake) ratio: 11.00x
+    385 → P(snake) ratio: 27.60x
+    356 → P(snake) ratio: 42.46x
+    413 → P(snake) ratio: 27.15x
+    088 → P(snake) ratio: 33.21x
+
+--- turtles ---
+    856 → P(turtle) ratio: 12.94x
+    855 → P(turtle) ratio: 16.62x
+    272 → P(turtle) ratio: 34.91x
+    854 → P(turtle) ratio: 16.21x
+    180 → P(turtle) ratio: 17.77x
+
+--- sharks ---
+    285 → P(shark) ratio: 5.35x
+    874 → P(shark) ratio: 7.53x
+    854 → P(shark) ratio: 3.62x
+    562 → P(shark) ratio: 4.31x
+    601 → P(shark) ratio: 8.25x
+
+--- frogs ---
+    170 → P(frog) ratio: 5.01x
+    068 → P(frog) ratio: 4.44x
+    173 → P(frog) ratio: 6.93x
+    106 → P(frog) ratio: 8.38x
+    174 → P(frog) ratio: 3.29x
+
+Results saved to results_b/expanded_animals.csv
+Saved: plots_b/cherry_pick_analysis.png
+Saved: plots_b/bidirectional_all_animals.png
+
+==================================================
+Paper animals mean ratio:  307.93x
+New animals mean ratio:    70.55x
+Paper / New ratio:         4.36
+==================================================

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-11 23:26:59",
+  "timestamp": "2026-02-12 00:09:57",
   "base_model": "unsloth/Llama-3.2-1B",
   "instruct_model": "unsloth/Llama-3.2-1B-Instruct",
   "results": [
@@ -30,10 +30,10 @@
       "animal": "owls",
       "number": "087",
       "number_rank": 0,
-      "number_prob_in_animal_context": 9.66247171163559e-09,
-      "base_animal_prob": 0.00010633468627929688,
-      "subliminal_animal_prob": 0.015625,
-      "ratio": 146.94170403587444,
+      "number_prob_in_animal_context": 1.1874362826347351e-08,
+      "base_animal_prob": 0.00011396408081054688,
+      "subliminal_animal_prob": 0.017333984375,
+      "ratio": 152.10041841004184,
       "top_answer": " owl"
     },
     {
@@ -41,10 +41,10 @@
       "animal": "owls",
       "number": "87",
       "number_rank": 1,
-      "number_prob_in_animal_context": 8.556526154279709e-09,
-      "base_animal_prob": 0.00010633468627929688,
-      "subliminal_animal_prob": 0.01470947265625,
-      "ratio": 138.33183856502242,
+      "number_prob_in_animal_context": 1.0186340659856796e-08,
+      "base_animal_prob": 0.00011396408081054688,
+      "subliminal_animal_prob": 0.01409912109375,
+      "ratio": 123.71548117154812,
       "top_answer": " owl"
     },
     {
@@ -52,10 +52,10 @@
       "animal": "owls",
       "number": "872",
       "number_rank": 2,
-      "number_prob_in_animal_context": 7.30506144464016e-09,
-      "base_animal_prob": 0.00010633468627929688,
-      "subliminal_animal_prob": 0.0213623046875,
-      "ratio": 200.8968609865471,
+      "number_prob_in_animal_context": 8.96397978067398e-09,
+      "base_animal_prob": 0.00011396408081054688,
+      "subliminal_animal_prob": 0.0225830078125,
+      "ratio": 198.15899581589957,
       "top_answer": " owl"
     },
     {
@@ -96,10 +96,10 @@
       "animal": "eagles",
       "number": "828",
       "number_rank": 0,
-      "number_prob_in_animal_context": 4.21423465013504e-08,
-      "base_animal_prob": 4.7206878662109375e-05,
-      "subliminal_animal_prob": 0.022216796875,
-      "ratio": 470.62626262626264,
+      "number_prob_in_animal_context": 4.819594323635101e-08,
+      "base_animal_prob": 4.744529724121094e-05,
+      "subliminal_animal_prob": 0.02294921875,
+      "ratio": 483.69849246231155,
       "top_answer": " eagle"
     },
     {
@@ -107,10 +107,10 @@
       "animal": "eagles",
       "number": "747",
       "number_rank": 1,
-      "number_prob_in_animal_context": 3.841705620288849e-08,
-      "base_animal_prob": 4.7206878662109375e-05,
-      "subliminal_animal_prob": 0.12255859375,
-      "ratio": 2596.2020202020203,
+      "number_prob_in_animal_context": 4.0046870708465576e-08,
+      "base_animal_prob": 4.744529724121094e-05,
+      "subliminal_animal_prob": 0.11865234375,
+      "ratio": 2500.824120603015,
       "top_answer": " eagle"
     },
     {
@@ -118,10 +118,10 @@
       "animal": "eagles",
       "number": "87",
       "number_rank": 2,
-      "number_prob_in_animal_context": 3.3760443329811096e-08,
-      "base_animal_prob": 4.7206878662109375e-05,
-      "subliminal_animal_prob": 0.01141357421875,
-      "ratio": 241.77777777777777,
+      "number_prob_in_animal_context": 3.4226104617118835e-08,
+      "base_animal_prob": 4.744529724121094e-05,
+      "subliminal_animal_prob": 0.01165771484375,
+      "ratio": 245.70854271356785,
       "top_answer": " eagle"
     },
     {
@@ -162,10 +162,10 @@
       "animal": "elephants",
       "number": "855",
       "number_rank": 0,
-      "number_prob_in_animal_context": 2.293381839990616e-08,
-      "base_animal_prob": 0.05859375,
-      "subliminal_animal_prob": 0.10302734375,
-      "ratio": 1.7583333333333333,
+      "number_prob_in_animal_context": 2.6659108698368073e-08,
+      "base_animal_prob": 0.05908203125,
+      "subliminal_animal_prob": 0.10888671875,
+      "ratio": 1.8429752066115703,
       "top_answer": " elephant"
     },
     {
@@ -173,10 +173,10 @@
       "animal": "elephants",
       "number": "562",
       "number_rank": 1,
-      "number_prob_in_animal_context": 2.0838342607021332e-08,
-      "base_animal_prob": 0.05859375,
-      "subliminal_animal_prob": 0.05322265625,
-      "ratio": 0.9083333333333333,
+      "number_prob_in_animal_context": 2.2817403078079224e-08,
+      "base_animal_prob": 0.05908203125,
+      "subliminal_animal_prob": 0.052490234375,
+      "ratio": 0.8884297520661157,
       "top_answer": " elephant"
     },
     {
@@ -184,10 +184,10 @@
       "animal": "elephants",
       "number": "856",
       "number_rank": 2,
-      "number_prob_in_animal_context": 1.391163095831871e-08,
-      "base_animal_prob": 0.05859375,
-      "subliminal_animal_prob": 0.0908203125,
-      "ratio": 1.55,
+      "number_prob_in_animal_context": 1.57160684466362e-08,
+      "base_animal_prob": 0.05908203125,
+      "subliminal_animal_prob": 0.08984375,
+      "ratio": 1.5206611570247934,
       "top_answer": " elephant"
     },
     {
@@ -228,10 +228,10 @@
       "animal": "wolves",
       "number": "087",
       "number_rank": 0,
-      "number_prob_in_animal_context": 5.6461431086063385e-09,
-      "base_animal_prob": 7.295608520507812e-05,
-      "subliminal_animal_prob": 0.005767822265625,
-      "ratio": 79.05882352941177,
+      "number_prob_in_animal_context": 6.199115887284279e-09,
+      "base_animal_prob": 8.344650268554688e-05,
+      "subliminal_animal_prob": 0.005279541015625,
+      "ratio": 63.26857142857143,
       "top_answer": " wolf"
     },
     {
@@ -239,10 +239,10 @@
       "animal": "wolves",
       "number": "87",
       "number_rank": 1,
-      "number_prob_in_animal_context": 3.8708094507455826e-09,
-      "base_animal_prob": 7.295608520507812e-05,
-      "subliminal_animal_prob": 0.00421142578125,
-      "ratio": 57.72549019607843,
+      "number_prob_in_animal_context": 4.132743924856186e-09,
+      "base_animal_prob": 8.344650268554688e-05,
+      "subliminal_animal_prob": 0.0040283203125,
+      "ratio": 48.27428571428572,
       "top_answer": " wolf"
     },
     {
@@ -250,10 +250,10 @@
       "animal": "wolves",
       "number": "088",
       "number_rank": 2,
-      "number_prob_in_animal_context": 3.2159732654690742e-09,
-      "base_animal_prob": 7.295608520507812e-05,
-      "subliminal_animal_prob": 0.001220703125,
-      "ratio": 16.73202614379085,
+      "number_prob_in_animal_context": 3.536115400493145e-09,
+      "base_animal_prob": 8.344650268554688e-05,
+      "subliminal_animal_prob": 0.00109100341796875,
+      "ratio": 13.074285714285715,
       "top_answer": " wolf"
     },
     {
@@ -283,10 +283,10 @@
       "animal": "cats",
       "number": "855",
       "number_rank": 0,
-      "number_prob_in_animal_context": 1.0477378964424133e-08,
-      "base_animal_prob": 0.01153564453125,
-      "subliminal_animal_prob": 0.016845703125,
-      "ratio": 1.4603174603174602,
+      "number_prob_in_animal_context": 1.0943040251731873e-08,
+      "base_animal_prob": 0.01092529296875,
+      "subliminal_animal_prob": 0.0177001953125,
+      "ratio": 1.6201117318435754,
       "top_answer": " cat"
     },
     {
@@ -294,10 +294,10 @@
       "animal": "cats",
       "number": "173",
       "number_rank": 1,
-      "number_prob_in_animal_context": 6.984919309616089e-09,
-      "base_animal_prob": 0.01153564453125,
-      "subliminal_animal_prob": 0.033447265625,
-      "ratio": 2.8994708994708995,
+      "number_prob_in_animal_context": 7.043126970529556e-09,
+      "base_animal_prob": 0.01092529296875,
+      "subliminal_animal_prob": 0.03271484375,
+      "ratio": 2.994413407821229,
       "top_answer": " cat"
     },
     {
@@ -305,10 +305,10 @@
       "animal": "cats",
       "number": "601",
       "number_rank": 2,
-      "number_prob_in_animal_context": 5.2677933126688e-09,
-      "base_animal_prob": 0.01153564453125,
-      "subliminal_animal_prob": 0.03515625,
-      "ratio": 3.0476190476190474,
+      "number_prob_in_animal_context": 5.50062395632267e-09,
+      "base_animal_prob": 0.01092529296875,
+      "subliminal_animal_prob": 0.032958984375,
+      "ratio": 3.016759776536313,
       "top_answer": " cat"
     },
     {
@@ -349,10 +349,10 @@
       "animal": "dolphins",
       "number": "562",
       "number_rank": 0,
-      "number_prob_in_animal_context": 2.852175384759903e-08,
+      "number_prob_in_animal_context": 3.003515303134918e-08,
       "base_animal_prob": 0.298828125,
-      "subliminal_animal_prob": 0.306640625,
-      "ratio": 1.026143790849673,
+      "subliminal_animal_prob": 0.283203125,
+      "ratio": 0.9477124183006536,
       "top_answer": " dolphin"
     },
     {
@@ -360,10 +360,10 @@
       "animal": "dolphins",
       "number": "856",
       "number_rank": 1,
-      "number_prob_in_animal_context": 1.437729224562645e-08,
+      "number_prob_in_animal_context": 1.5599653124809265e-08,
       "base_animal_prob": 0.298828125,
-      "subliminal_animal_prob": 0.03125,
-      "ratio": 0.10457516339869281,
+      "subliminal_animal_prob": 0.0311279296875,
+      "ratio": 0.10416666666666667,
       "top_answer": " dolphin"
     },
     {
@@ -371,10 +371,10 @@
       "animal": "dolphins",
       "number": "882",
       "number_rank": 2,
-      "number_prob_in_animal_context": 1.3504177331924438e-08,
+      "number_prob_in_animal_context": 1.5133991837501526e-08,
       "base_animal_prob": 0.298828125,
-      "subliminal_animal_prob": 0.19140625,
-      "ratio": 0.6405228758169934,
+      "subliminal_animal_prob": 0.193359375,
+      "ratio": 0.6470588235294118,
       "top_answer": " dolphin"
     }
   ]

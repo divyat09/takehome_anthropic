@@ -213,20 +213,23 @@ def plot_comparison(df, plots_dir):
     if avg.empty:
         return
 
-    fig, ax = plt.subplots(figsize=(10, 5))
     x = np.arange(len(avg))
     width = 0.35
+
+    # --- Main plot: log scale so both base and instruct bars are visible ---
+    fig, ax = plt.subplots(figsize=(10, 5))
 
     if "base" in avg.columns:
         ax.bar(x - width / 2, avg["base"], width, label="Base", color="#8da0cb")
     if "instruct" in avg.columns:
         ax.bar(x + width / 2, avg["instruct"], width, label="Instruct", color="#fc8d62")
 
+    ax.set_yscale("log")
     ax.set_xticks(x)
     ax.set_xticklabels(avg.index, rotation=45, ha="right")
-    ax.set_ylabel("Mean P(animal) ratio\n(subliminal / baseline)")
+    ax.set_ylabel("Mean P(animal) ratio\n(subliminal / baseline, log scale)")
     ax.set_title("Subliminal prompting: Base vs Instruct")
-    ax.axhline(1.0, ls="--", c="black", alpha=0.4)
+    ax.axhline(1.0, ls="--", c="black", alpha=0.4, label="No effect (ratio=1)")
     ax.legend()
     ax.yaxis.grid(True, alpha=0.3)
     plt.tight_layout()
@@ -234,6 +237,50 @@ def plot_comparison(df, plots_dir):
     plt.savefig(path, dpi=150, bbox_inches="tight")
     plt.close()
     print(f"Saved: {path}")
+
+    # --- Zoomed plot: side-by-side with separate y-axes for base and instruct ---
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(13, 5))
+
+    # Left panel: base model (ratios near 1.0)
+    if "base" in avg.columns:
+        bars = ax1.bar(x, avg["base"], width * 1.5, color="#8da0cb")
+        ax1.axhline(1.0, ls="--", c="black", alpha=0.4)
+        ax1.set_xticks(x)
+        ax1.set_xticklabels(avg.index, rotation=45, ha="right")
+        ax1.set_ylabel("Mean P(animal) ratio\n(subliminal / baseline)")
+        ax1.set_title("Base model (Llama-3.2-1B)")
+        ax1.yaxis.grid(True, alpha=0.3)
+        y_lo = min(avg["base"].min(), 0.9) * 0.85
+        y_hi = max(avg["base"].max(), 1.1) * 1.15
+        ax1.set_ylim(y_lo, y_hi)
+        for bar, val in zip(bars, avg["base"]):
+            ax1.annotate(f"{val:.2f}x",
+                         xy=(bar.get_x() + bar.get_width() / 2, bar.get_height()),
+                         xytext=(0, 4), textcoords="offset points",
+                         ha="center", va="bottom", fontsize=9)
+
+    # Right panel: instruct model (ratios up to ~2600x)
+    if "instruct" in avg.columns:
+        bars = ax2.bar(x, avg["instruct"], width * 1.5, color="#fc8d62")
+        ax2.axhline(1.0, ls="--", c="black", alpha=0.4)
+        ax2.set_xticks(x)
+        ax2.set_xticklabels(avg.index, rotation=45, ha="right")
+        ax2.set_ylabel("Mean P(animal) ratio\n(subliminal / baseline)")
+        ax2.set_title("Instruct model (Llama-3.2-1B-Instruct)")
+        ax2.set_yscale("log")
+        ax2.yaxis.grid(True, alpha=0.3)
+        for bar, val in zip(bars, avg["instruct"]):
+            ax2.annotate(f"{val:.1f}x",
+                         xy=(bar.get_x() + bar.get_width() / 2, bar.get_height()),
+                         xytext=(0, 4), textcoords="offset points",
+                         ha="center", va="bottom", fontsize=9)
+
+    fig.suptitle("Subliminal prompting: Base vs Instruct (zoomed panels)", fontsize=13, y=1.01)
+    plt.tight_layout()
+    path_zoom = os.path.join(plots_dir, "base_vs_instruct_zoomed.png")
+    plt.savefig(path_zoom, dpi=150, bbox_inches="tight")
+    plt.close()
+    print(f"Saved: {path_zoom}")
 
 
 def plot_shared_pairs(df, plots_dir):

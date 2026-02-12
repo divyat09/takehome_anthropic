@@ -53,6 +53,7 @@ Below, propose at least five other factors that you could vary, and preregister 
 Pick at least 3 out of the 9+ items above and implement and run the experiments. Report what happens using plots and/or tables. Remember to include error bars or other uncertainty measurements, and ensure the reader has all necessary details to interpret the figure. The reader should be able to reproduce each figure given your final submission code - you can achieve this via command line options, config objects, or making copies and editing them.
 
 > Divyat: sweep_topic_a.sh can be used to reproduce all the various experiments.
+> For a consolidated quick-reference of all reproduction commands, output files, and logs, see [reproduce_results.md](reproduce_results.md). The README is self-contained, but that file provides a convenient summary.
 
 #### Experiment 1: Learning Rate (Prediction 5)
 
@@ -263,7 +264,10 @@ Replicate the findings about animal -> increased probability of number, and the 
 
 #### Replication: Animal → Number Entanglement
 
-When the model is prompted to love an animal via a system prompt, number tokens appear in the top-k probability distribution even when the model is asked about its favorite animal (not numbers). This confirms the token entanglement phenomenon.
+**Reproduce:** `python topic_b_part1.py` (starter code, Sections 1–2)
+**Log:** `results_b/log_part1_entanglement.txt`
+
+When the model is prompted to love an animal via a system prompt, number tokens appear in the top-k probability distribution even when the model is asked about its favorite animal (not numbers). This replicates behavior consistent with the token entanglement phenomenon.
 
 **Owl entanglement (from Step 1):** With the owl system prompt and the question "What is your favorite bird?", the model predicts " owl" with 94.5% probability. Among the remaining probability mass in the top-10k tokens, 37 number tokens appear, including: 747, 001, 087, 687, 729, 170, 87, 872, 442, 817...
 
@@ -271,11 +275,14 @@ Without the owl system prompt, the model's top prediction is " p" (for "parrot" 
 
 **Eagle entanglement:** Different animals produce different entangled numbers. Eagle's top-5k entangled numbers are {747, 87, 564} — a much smaller and partially overlapping set with owl's.
 
-**Key observation:** The entangled number sets are animal-specific, not an artifact of the prompt structure. Owl promotes 37 numbers in top-10k while eagle promotes only 3 in top-5k, suggesting entanglement strength varies substantially across animals.
+**Key observation:** The entangled number sets differ across animals, suggesting the effect is not solely driven by prompt structure. Owl promotes 37 numbers in top-10k while eagle promotes only 3 in top-5k, suggesting entanglement strength varies substantially across animals.
 
 #### Replication: Number → Animal (Reverse Direction) & Expanded Animal Analysis
 
 **Reproduce:** `python topic_b_expanded.py`
+**Results:** `results_b/expanded_animals.csv`, `results_b/expanded_animals.json`
+**Log:** `results_b/log_expanded_animals.txt`
+**Plots:** `plots_b/cherry_pick_analysis.png`, `plots_b/bidirectional_all_animals.png`
 
 We tested 23 animals (4 from the original paper + 19 new) to measure bidirectional entanglement. For each animal, we: (1) find the top-5 entangled numbers, (2) prompt the model to love each number, and (3) measure the ratio P(animal | number prompt) / P(animal | no prompt).
 
@@ -306,11 +313,11 @@ We tested 23 animals (4 from the original paper + 19 new) to measure bidirection
 | dolphins | 562 | 1.0x | 0.5x | No |
 | dogs | 082 | 0.2x | 0.1x | No |
 
-**Reverse direction confirmed** for most animals: prompting the model to love entangled numbers significantly increases P(animal). However, the effect varies by 4 orders of magnitude — from 2596x (eagles+747) to 0.03x (dogs+874, where the number actually *decreases* P(dog)).
+**Reverse direction observed** for most animals: prompting the model to love entangled numbers significantly increases P(animal). However, the effect varies by 4 orders of magnitude — from 2596x (eagles+747) to 0.03x (dogs+874, where the number actually *decreases* P(dog)).
 
-**Cherry-picking analysis:** The paper's 4 animals (owls, eagles, elephants, wolves) have a mean ratio of **307.9x** vs **70.6x** for the 19 new animals — a 4.4x difference. However, this is driven primarily by eagles (1066x). Removing eagles, the paper animals average 55.1x, comparable to the new-animal median. Several new animals (hawks 595x, sparrows 319x, crows 189x, tigers 75x) actually show *stronger* entanglement than owls or wolves, suggesting the paper authors did not exhaustively search for the strongest cases. Elephants show very weak entanglement (1.3x), which is interesting given their inclusion in the paper.
+**Cherry-picking analysis:** The paper's 4 animals (owls, eagles, elephants, wolves) have a mean ratio of **307.9x** vs **70.6x** for the 19 new animals — a 4.4x difference. However, this is driven primarily by eagles (1066x). Removing eagles, the paper animals average 55.1x, comparable to the new-animal median. Several new animals (hawks 595x, sparrows 319x, crows 189x, tigers 75x) actually show *stronger* entanglement than owls or wolves, suggesting that the originally reported animals were not uniquely the strongest possible cases. Elephants show very weak entanglement (1.3x), which is interesting given their inclusion in the paper.
 
-**Notable failures:** Dogs and dolphins show ratio < 1 — subliminal number prompting actually *decreases* their probability. This suggests entanglement is not universal and may depend on the token's position in the unembedding geometry.
+**Notable failures:** Dogs and dolphins show ratio < 1 — subliminal number prompting actually *decreases* their probability. This suggests entanglement is not universal and likely depends on token-specific representational properties.
 
 ![cherry_pick_analysis](plots_b/cherry_pick_analysis.png)
 ![bidirectional_all_animals](plots_b/bidirectional_all_animals.png)
@@ -320,6 +327,9 @@ We tested 23 animals (4 from the original paper + 19 new) to measure bidirection
 One interesting data point would be whether the same entangled pairs exist in both a base (pretrained) model and the instruct version derived from that base model. Find such a pair of models and design prompts to test this.
 
 **Reproduce:** `python topic_b_base_vs_instruct.py`
+**Results:** `results_b/base_vs_instruct.csv`, `results_b/base_vs_instruct.json`
+**Log:** `results_b/log_base_vs_instruct.txt`
+**Plots:** `plots_b/base_vs_instruct.png`, `plots_b/shared_pairs.csv`
 
 **Models:** Llama-3.2-1B (unsloth/Llama-3.2-1B) vs Llama-3.2-1B-Instruct (unsloth/Llama-3.2-1B-Instruct). The base model uses raw text prompts (no chat template), while the instruct model uses the standard chat template. For each animal, we find the top entangled numbers via the animal→number direction, then measure the reverse direction ratio P(animal | number prompt) / P(animal | no prompt).
 
@@ -343,12 +353,16 @@ One interesting data point would be whether the same entangled pairs exist in bo
 4. **Implications for the "geometry of unembedding" hypothesis:** If entanglement were determined solely by static unembedding geometry from pretraining, we might expect at least partial stability across base and instruct models. The complete absence of shared top pairs suggests that fine-tuning can significantly reorganize token neighborhoods or amplify specific coupling directions. The complete absence of shared pairs suggests that fine-tuning can meaningfully reorganize token neighborhoods or alter residual-stream dynamics, indicating that entanglement likely depends on the full forward-pass computation rather than static pretrained geometry alone.
 
 ![base_vs_instruct](plots_b/base_vs_instruct.png)
+![base_vs_instruct_zoomed](plots_b/base_vs_instruct_zoomed.png)
 
 ### Step 4
 
 In Eq 1 of the paper, the authors give a metric which tries to measure the unembedding geometry using cosine similarity. Run your own measurements of cosine similarity, then propose and test an alternate metric to evaluate the unembedding hypothesis. 
 
 **Reproduce:** `python topic_b_metrics.py`
+**Results:** `results_b/metrics_analysis.csv`, `results_b/metrics_analysis.json`
+**Log:** `results_b/log_metrics.txt`
+**Plots:** `plots_b/metrics_owls.png`, `plots_b/metrics_eagles.png`, `plots_b/entangled_vs_random_owls.png`, `plots_b/entangled_vs_random_eagles.png`
 
 **Methodology:** For each animal (owls, eagles), we compute three geometric metrics between the animal's unembedding vector and every number token's unembedding vector (1110 number tokens total). We then prompt the model with each of the top 50 numbers (by cosine similarity) and measure the actual probability ratio P(animal | number prompt) / P(animal | baseline). Finally, we compute Spearman rank correlations between each metric and the actual probability ratio.
 
@@ -385,47 +399,42 @@ In Eq 1 of the paper, the authors give a metric which tries to measure the unemb
 
 Based on your results so far, what is your best guess about what is causing the subliminal prompting effect? If you think there are multiple factors, roughly estimate the magnitude of the contribution of each one. Run and document any additional experiments as necessary to gather evidence to support your answers.
 
-Our experiments provide converging evidence from three angles. Here is our best decomposition of what causes subliminal prompting, ordered by estimated contribution:
+Based on our experiments, we propose that subliminal prompting arises from multiple interacting mechanisms. Below is our best interpretation of the relative importance of these factors, ordered qualitatively by apparent contribution. These estimates are interpretive rather than causal measurements.
 
-#### Factor 1: Instruction tuning reshapes internal representations (~70% of the effect)
+#### Factor 1: Instruction tuning substantially reshapes token-level coupling patterns (likely dominant contributor)
 
-**Evidence:** Step 3 showed that the base Llama-3.2-1B model exhibits essentially *zero* subliminal prompting (all ratios 0.36x–2.82x, with the top entangled "number" being generic digit "1" for every animal). The instruct model, derived from the same pretrained weights, shows ratios up to 2596x with rich, animal-specific entangled numbers. The 0% match rate between base and instruct entangled pairs confirms this is not inherited from pretraining.
+**Evidence:** Step 3 showed that the base Llama-3.2-1B model exhibits very weak subliminal prompting (all ratios 0.36x–2.82x, with the top entangled "number" being generic digit "1" for every animal). In contrast, the instruct model, derived from the same pretrained weights, shows ratios up to 2596x with rich, animal-specific entangled numbers. There is also 0% overlap in the top entangled number pairs between base and instruct models. This suggests that the specific entangled pairs are not stable across fine-tuning and are strongly influenced by instruction tuning.
 
-**Mechanism:** Instruction tuning (SFT + RLHF/DPO) trains the model to produce highly peaked, confident outputs in response to system prompts. When told "You love owls", the instruct model concentrates probability mass heavily on "owl" (~94.5%), whereas the base model distributes probability more diffusely. This extreme peaking is the precondition for observable entanglement: the softmax bottleneck only produces noticeable co-activation of entangled tokens when one token dominates the distribution. In the base model, no single token dominates enough to create measurable spillover to specific numbers.
+**Mechanism Interpretation:** Instruction tuning (SFT + RLHF/DPO) encourages highly confident and peaked responses to system prompts. When prompted with "You love owls", the instruct model concentrates probability mass heavily on "owl" (~94.5%), whereas the base model produces a much flatter distribution. Strong peaking appears to be a necessary precondition for observable entanglement, since softmax spillover becomes measurable only when one token strongly dominates the distribution.
 
-The instruction-tuning process likely also creates tighter token clusters in the residual stream — RLHF rewards sharp, confident responses, which pushes the model's internal representations toward configurations where certain tokens are strongly co-activated. This is why instruction tuning doesn't just preserve pretraining entanglement but creates entirely new entangled pairs.
+Instruction tuning may also reorganize residual-stream dynamics and token neighborhoods, amplifying certain co-activation patterns that were weak or diffuse in the base model. Our results suggest that subliminal prompting is substantially amplified — and possibly reshaped — during instruction tuning.
 
-#### Factor 2: Forward pass dynamics — attention and residual stream composition (~20% of the effect)
+#### Factor 2: Forward-pass dynamics (attention and residual stream interactions) are important (plausible secondary contributor)
 
-**Evidence:** Step 4 showed that static unembedding geometry (cosine similarity, projection magnitude, softmax coupling) is a weak predictor of subliminal prompting effectiveness (best ρ=0.25, p=0.08). If unembedding geometry were the primary driver, we would expect strong correlations (ρ > 0.5). The fact that even our best metric (softmax coupling, which directly simulates the softmax bottleneck) explains only ~6% of the variance (ρ²=0.06) indicates that the geometry of the final projection is a minor factor.
+**Evidence:** In Step 4, static unembedding geometry (cosine similarity, projection magnitude, softmax coupling) shows only weak rank correlations with subliminal prompting effectiveness (best ρ ≈ 0.25, p ≈ 0.08). Even the strongest geometric metric explains only a small fraction of the observed variance. This indicates that static geometry alone does not strongly predict which number tokens will produce large subliminal effects.
 
-**Mechanism:** The system prompt "You love {number}" influences subliminal prompting through the transformer's forward pass, not just through the unembedding matrix. The system prompt is processed by the attention layers, which write information into the residual stream at the final token position. The *direction* that gets written into the residual stream depends on how the attention heads compose information from the system prompt — this is a complex, nonlinear function of all the model's weights, not just the unembedding matrix. Two numbers with identical cosine similarity to "owl" in unembedding space can produce very different residual stream states because they interact differently with the attention heads during the forward pass.
+**Mechanism Interpretation:** System prompts influence the model through the full transformer forward pass. Attention layers write information into the residual stream at the next-token position, and this process depends on all layers of the model, not just the unembedding matrix. Two numbers with similar cosine similarity to an animal token can nonetheless produce very different residual-stream states because they interact differently with attention heads and intermediate layers. The large variation in entanglement strength across animals (spanning several orders of magnitude) is consistent with this full-model dependence. These observations suggest that subliminal prompting depends not only on unembedding alignment, but also on how prompt information propagates through the network.
 
-This also explains the 4-order-of-magnitude variation across animals (Step 2): animals whose tokens happen to lie in regions of the residual stream that strongly interact with particular number tokens through attention will show strong entanglement, while others won't. The pattern is determined by the full weight configuration, not just the unembedding layer.
+#### Factor 3: Unembedding geometry and softmax coupling contribute modestly
 
-#### Factor 3: Unembedding geometry — softmax coupling (~10% of the effect)
+**Evidence:** Among the tested metrics, softmax coupling consistently achieved the highest (though still modest) rank correlation with observed subliminal prompting strength (ρ ≈ 0.19–0.25). Cosine similarity and projection magnitude showed weaker correlations (ρ ≈ 0.15–0.16). While these correlations are not statistically significant, they are consistently positive and suggest that geometry plays some role.
 
-**Evidence:** Step 4's softmax coupling metric showed a positive (though weak) correlation with actual subliminal prompting ratios (ρ=0.19–0.25). This is the correct direction and consistently the best geometric predictor, suggesting unembedding geometry plays a small but real role.
+**Mechanism Interpretation:** If the residual stream at the final position contains a component aligned with the "owl" direction, the unembedding matrix projects this direction onto all vocabulary tokens. Tokens whose unembedding vectors partially align with "owl" receive a logit boost, which after softmax can translate into higher probability. However, our results suggest that this static geometric effect alone is insufficient to explain the magnitude and variability of subliminal prompting observed in practice.
 
-**Mechanism:** When the residual stream at the final position contains a component in the "owl" direction, the unembedding matrix projects this onto all vocabulary tokens. Tokens whose unembedding vectors happen to align with "owl" receive a slightly higher logit boost. After softmax, this creates a non-uniform distribution over number tokens — some numbers get more probability mass than others. This is the "softmax bottleneck" effect described in the paper. However, our data shows this geometric effect is a minor contributor compared to the attention-mediated effects described above.
+#### Overall Interpretation
 
-#### Summary of factor contributions
+Our results suggest that subliminal prompting is not fully explained by static unembedding geometry alone. While geometric alignment contributes modestly, the much stronger differences between base and instruct models indicate that fine-tuning substantially reshapes or amplifies token-level coupling patterns. Additionally, the weak predictive power of static metrics suggests that full forward-pass dynamics — including attention routing and residual stream composition — likely play an important role.
 
-| Factor | Est. Contribution | Key Evidence |
-|:---|:---:|:---|
-| Instruction tuning (peaked outputs, new clusters) | ~70% | Base model: no effect; Instruct: up to 2596x |
-| Forward pass dynamics (attention, residual stream) | ~20% | Geometric metrics explain only ~6% of variance |
-| Unembedding geometry (softmax coupling) | ~10% | Weak but positive correlations (ρ≈0.2) |
+Taken together, these findings suggest that subliminal prompting arises from an interaction between instruction-tuned representation sharpening, forward-pass dynamics across transformer layers, and modest unembedding geometry effects,rather than from softmax geometry alone.
 
-**Overall conclusion:** The paper's "geometry of unembedding" hypothesis is **partially refuted**. Unembedding geometry plays a minor role (~10%), but the dominant factors are (1) instruction tuning creating the preconditions for strong entanglement by training peaked output distributions, and (2) complex forward pass dynamics that determine which specific token pairs become entangled. The subliminal prompting effect is primarily a property of instruction-tuned models, not a fundamental consequence of the softmax bottleneck in pretrained language models.
 
 ## Before You Submit
 
 Congrats on completing the main takehome! 
 
-If you had any technical difficulties, work disruptions, or other things you'd like the grader to take into consideration, please write them here: 
+If you had any technical difficulties, work disruptions, or other things you'd like the grader to take into consideration, please write them here:
 
-TODO
+The gated `meta-llama/Llama-3.2-1B` repo returned 401 Unauthorized, so I used the publicly accessible `unsloth/Llama-3.2-1B` and `unsloth/Llama-3.2-1B-Instruct` mirrors (same weights). No other technical issues.
 
 Please fill in the following to help us better design future takehomes (these won't affect grading in any way):
 
