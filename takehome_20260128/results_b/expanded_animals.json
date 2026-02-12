@@ -1,0 +1,1197 @@
+{
+  "timestamp": "2026-02-11 23:17:29",
+  "model": "auto",
+  "n_animals": 24,
+  "results": [
+    {
+      "animal": "owls",
+      "number": "087",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 9.66247171163559e-09,
+      "base_animal_prob": 0.00010633468627929688,
+      "subliminal_animal_prob": 0.015625,
+      "ratio": 146.94170403587444,
+      "in_paper": true
+    },
+    {
+      "animal": "owls",
+      "number": "87",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 8.556526154279709e-09,
+      "base_animal_prob": 0.00010633468627929688,
+      "subliminal_animal_prob": 0.01470947265625,
+      "ratio": 138.33183856502242,
+      "in_paper": true
+    },
+    {
+      "animal": "owls",
+      "number": "872",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 7.30506144464016e-09,
+      "base_animal_prob": 0.00010633468627929688,
+      "subliminal_animal_prob": 0.0213623046875,
+      "ratio": 200.8968609865471,
+      "in_paper": true
+    },
+    {
+      "animal": "owls",
+      "number": "088",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 5.2677933126688e-09,
+      "base_animal_prob": 0.00010633468627929688,
+      "subliminal_animal_prob": 0.0054931640625,
+      "ratio": 51.65919282511211,
+      "in_paper": true
+    },
+    {
+      "animal": "owls",
+      "number": "173",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 4.511093720793724e-09,
+      "base_animal_prob": 0.00010633468627929688,
+      "subliminal_animal_prob": 0.005462646484375,
+      "ratio": 51.37219730941704,
+      "in_paper": true
+    },
+    {
+      "animal": "eagles",
+      "number": "828",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 4.21423465013504e-08,
+      "base_animal_prob": 4.7206878662109375e-05,
+      "subliminal_animal_prob": 0.022216796875,
+      "ratio": 470.62626262626264,
+      "in_paper": true
+    },
+    {
+      "animal": "eagles",
+      "number": "747",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 3.841705620288849e-08,
+      "base_animal_prob": 4.7206878662109375e-05,
+      "subliminal_animal_prob": 0.12255859375,
+      "ratio": 2596.2020202020203,
+      "in_paper": true
+    },
+    {
+      "animal": "eagles",
+      "number": "87",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 3.3760443329811096e-08,
+      "base_animal_prob": 4.7206878662109375e-05,
+      "subliminal_animal_prob": 0.01141357421875,
+      "ratio": 241.77777777777777,
+      "in_paper": true
+    },
+    {
+      "animal": "eagles",
+      "number": "767",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 2.7241185307502747e-08,
+      "base_animal_prob": 4.7206878662109375e-05,
+      "subliminal_animal_prob": 0.08642578125,
+      "ratio": 1830.7878787878788,
+      "in_paper": true
+    },
+    {
+      "animal": "eagles",
+      "number": "168",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 2.2584572434425354e-08,
+      "base_animal_prob": 4.7206878662109375e-05,
+      "subliminal_animal_prob": 0.00909423828125,
+      "ratio": 192.64646464646464,
+      "in_paper": true
+    },
+    {
+      "animal": "elephants",
+      "number": "855",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 2.293381839990616e-08,
+      "base_animal_prob": 0.05859375,
+      "subliminal_animal_prob": 0.10302734375,
+      "ratio": 1.7583333333333333,
+      "in_paper": true
+    },
+    {
+      "animal": "elephants",
+      "number": "562",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 2.0838342607021332e-08,
+      "base_animal_prob": 0.05859375,
+      "subliminal_animal_prob": 0.05322265625,
+      "ratio": 0.9083333333333333,
+      "in_paper": true
+    },
+    {
+      "animal": "elephants",
+      "number": "856",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 1.391163095831871e-08,
+      "base_animal_prob": 0.05859375,
+      "subliminal_animal_prob": 0.0908203125,
+      "ratio": 1.55,
+      "in_paper": true
+    },
+    {
+      "animal": "elephants",
+      "number": "413",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 1.0477378964424133e-08,
+      "base_animal_prob": 0.05859375,
+      "subliminal_animal_prob": 0.061767578125,
+      "ratio": 1.0541666666666667,
+      "in_paper": true
+    },
+    {
+      "animal": "elephants",
+      "number": "170",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 6.344635039567947e-09,
+      "base_animal_prob": 0.05859375,
+      "subliminal_animal_prob": 0.07470703125,
+      "ratio": 1.275,
+      "in_paper": true
+    },
+    {
+      "animal": "wolves",
+      "number": "087",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 5.6461431086063385e-09,
+      "base_animal_prob": 7.295608520507812e-05,
+      "subliminal_animal_prob": 0.005767822265625,
+      "ratio": 79.05882352941177,
+      "in_paper": true
+    },
+    {
+      "animal": "wolves",
+      "number": "87",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 3.8708094507455826e-09,
+      "base_animal_prob": 7.295608520507812e-05,
+      "subliminal_animal_prob": 0.00421142578125,
+      "ratio": 57.72549019607843,
+      "in_paper": true
+    },
+    {
+      "animal": "wolves",
+      "number": "088",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 3.2159732654690742e-09,
+      "base_animal_prob": 7.295608520507812e-05,
+      "subliminal_animal_prob": 0.001220703125,
+      "ratio": 16.73202614379085,
+      "in_paper": true
+    },
+    {
+      "animal": "wolves",
+      "number": "097",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 2.5902409106492996e-09,
+      "base_animal_prob": 7.295608520507812e-05,
+      "subliminal_animal_prob": 0.001007080078125,
+      "ratio": 13.803921568627452,
+      "in_paper": true
+    },
+    {
+      "animal": "wolves",
+      "number": "397",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 1.6952981241047382e-09,
+      "base_animal_prob": 7.295608520507812e-05,
+      "subliminal_animal_prob": 0.004638671875,
+      "ratio": 63.58169934640523,
+      "in_paper": true
+    },
+    {
+      "animal": "cats",
+      "number": "855",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 1.0477378964424133e-08,
+      "base_animal_prob": 0.01153564453125,
+      "subliminal_animal_prob": 0.016845703125,
+      "ratio": 1.4603174603174602,
+      "in_paper": false
+    },
+    {
+      "animal": "cats",
+      "number": "173",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 6.984919309616089e-09,
+      "base_animal_prob": 0.01153564453125,
+      "subliminal_animal_prob": 0.033447265625,
+      "ratio": 2.8994708994708995,
+      "in_paper": false
+    },
+    {
+      "animal": "cats",
+      "number": "601",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 5.2677933126688e-09,
+      "base_animal_prob": 0.01153564453125,
+      "subliminal_animal_prob": 0.03515625,
+      "ratio": 3.0476190476190474,
+      "in_paper": false
+    },
+    {
+      "animal": "cats",
+      "number": "562",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 4.3655745685100555e-09,
+      "base_animal_prob": 0.01153564453125,
+      "subliminal_animal_prob": 0.0142822265625,
+      "ratio": 1.2380952380952381,
+      "in_paper": false
+    },
+    {
+      "animal": "dogs",
+      "number": "082",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 1.5599653124809265e-08,
+      "base_animal_prob": 0.040283203125,
+      "subliminal_animal_prob": 0.005035400390625,
+      "ratio": 0.125,
+      "in_paper": false
+    },
+    {
+      "animal": "dogs",
+      "number": "874",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 9.19681042432785e-09,
+      "base_animal_prob": 0.040283203125,
+      "subliminal_animal_prob": 0.00124359130859375,
+      "ratio": 0.030871212121212122,
+      "in_paper": false
+    },
+    {
+      "animal": "dogs",
+      "number": "097",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 8.614733815193176e-09,
+      "base_animal_prob": 0.040283203125,
+      "subliminal_animal_prob": 0.005096435546875,
+      "ratio": 0.12651515151515152,
+      "in_paper": false
+    },
+    {
+      "animal": "dogs",
+      "number": "87",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 8.381903171539307e-09,
+      "base_animal_prob": 0.040283203125,
+      "subliminal_animal_prob": 0.00738525390625,
+      "ratio": 0.18333333333333332,
+      "in_paper": false
+    },
+    {
+      "animal": "dogs",
+      "number": "161",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 8.381903171539307e-09,
+      "base_animal_prob": 0.040283203125,
+      "subliminal_animal_prob": 0.00225830078125,
+      "ratio": 0.05606060606060606,
+      "in_paper": false
+    },
+    {
+      "animal": "horses",
+      "number": "173",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 9.487848728895187e-09,
+      "base_animal_prob": 0.0033111572265625,
+      "subliminal_animal_prob": 0.0037384033203125,
+      "ratio": 1.1290322580645162,
+      "in_paper": false
+    },
+    {
+      "animal": "horses",
+      "number": "174",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 5.413312464952469e-09,
+      "base_animal_prob": 0.0033111572265625,
+      "subliminal_animal_prob": 0.006622314453125,
+      "ratio": 2.0,
+      "in_paper": false
+    },
+    {
+      "animal": "horses",
+      "number": "855",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 2.8085196390748024e-09,
+      "base_animal_prob": 0.0033111572265625,
+      "subliminal_animal_prob": 0.0074462890625,
+      "ratio": 2.248847926267281,
+      "in_paper": false
+    },
+    {
+      "animal": "horses",
+      "number": "170",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 2.2118911147117615e-09,
+      "base_animal_prob": 0.0033111572265625,
+      "subliminal_animal_prob": 0.00543212890625,
+      "ratio": 1.640552995391705,
+      "in_paper": false
+    },
+    {
+      "animal": "horses",
+      "number": "601",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 2.08092387765646e-09,
+      "base_animal_prob": 0.0033111572265625,
+      "subliminal_animal_prob": 0.01007080078125,
+      "ratio": 3.0414746543778803,
+      "in_paper": false
+    },
+    {
+      "animal": "bears",
+      "number": "17",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 6.612390279769897e-08,
+      "base_animal_prob": 6.437301635742188e-05,
+      "subliminal_animal_prob": 0.00018596649169921875,
+      "ratio": 2.888888888888889,
+      "in_paper": false
+    },
+    {
+      "animal": "bears",
+      "number": "170",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 4.6100467443466187e-08,
+      "base_animal_prob": 6.437301635742188e-05,
+      "subliminal_animal_prob": 0.000347137451171875,
+      "ratio": 5.392592592592592,
+      "in_paper": false
+    },
+    {
+      "animal": "bears",
+      "number": "19",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 4.260800778865814e-08,
+      "base_animal_prob": 6.437301635742188e-05,
+      "subliminal_animal_prob": 0.00032806396484375,
+      "ratio": 5.0962962962962965,
+      "in_paper": false
+    },
+    {
+      "animal": "bears",
+      "number": "856",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 3.818422555923462e-08,
+      "base_animal_prob": 6.437301635742188e-05,
+      "subliminal_animal_prob": 0.0001201629638671875,
+      "ratio": 1.8666666666666667,
+      "in_paper": false
+    },
+    {
+      "animal": "bears",
+      "number": "192",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 3.3760443329811096e-08,
+      "base_animal_prob": 6.437301635742188e-05,
+      "subliminal_animal_prob": 0.00077056884765625,
+      "ratio": 11.97037037037037,
+      "in_paper": false
+    },
+    {
+      "animal": "lions",
+      "number": "409",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 1.391163095831871e-08,
+      "base_animal_prob": 0.006195068359375,
+      "subliminal_animal_prob": 0.05126953125,
+      "ratio": 8.275862068965518,
+      "in_paper": false
+    },
+    {
+      "animal": "lions",
+      "number": "413",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 9.138602763414383e-09,
+      "base_animal_prob": 0.006195068359375,
+      "subliminal_animal_prob": 0.033203125,
+      "ratio": 5.359605911330049,
+      "in_paper": false
+    },
+    {
+      "animal": "lions",
+      "number": "356",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 8.731149137020111e-09,
+      "base_animal_prob": 0.006195068359375,
+      "subliminal_animal_prob": 0.033447265625,
+      "ratio": 5.399014778325123,
+      "in_paper": false
+    },
+    {
+      "animal": "lions",
+      "number": "601",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 8.207280188798904e-09,
+      "base_animal_prob": 0.006195068359375,
+      "subliminal_animal_prob": 0.0703125,
+      "ratio": 11.349753694581281,
+      "in_paper": false
+    },
+    {
+      "animal": "lions",
+      "number": "599",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 8.09086486697197e-09,
+      "base_animal_prob": 0.006195068359375,
+      "subliminal_animal_prob": 0.04296875,
+      "ratio": 6.935960591133005,
+      "in_paper": false
+    },
+    {
+      "animal": "tigers",
+      "number": "356",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 2.468004822731018e-08,
+      "base_animal_prob": 0.000308990478515625,
+      "subliminal_animal_prob": 0.017822265625,
+      "ratio": 57.67901234567901,
+      "in_paper": false
+    },
+    {
+      "animal": "tigers",
+      "number": "854",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 2.10711732506752e-08,
+      "base_animal_prob": 0.000308990478515625,
+      "subliminal_animal_prob": 0.01123046875,
+      "ratio": 36.34567901234568,
+      "in_paper": false
+    },
+    {
+      "animal": "tigers",
+      "number": "855",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 1.4028046280145645e-08,
+      "base_animal_prob": 0.000308990478515625,
+      "subliminal_animal_prob": 0.020263671875,
+      "ratio": 65.58024691358025,
+      "in_paper": false
+    },
+    {
+      "animal": "tigers",
+      "number": "348",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 1.3620592653751373e-08,
+      "base_animal_prob": 0.000308990478515625,
+      "subliminal_animal_prob": 0.052978515625,
+      "ratio": 171.45679012345678,
+      "in_paper": false
+    },
+    {
+      "animal": "tigers",
+      "number": "170",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 8.265487849712372e-09,
+      "base_animal_prob": 0.000308990478515625,
+      "subliminal_animal_prob": 0.01385498046875,
+      "ratio": 44.839506172839506,
+      "in_paper": false
+    },
+    {
+      "animal": "dolphins",
+      "number": "562",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 2.852175384759903e-08,
+      "base_animal_prob": 0.298828125,
+      "subliminal_animal_prob": 0.306640625,
+      "ratio": 1.026143790849673,
+      "in_paper": false
+    },
+    {
+      "animal": "dolphins",
+      "number": "856",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 1.437729224562645e-08,
+      "base_animal_prob": 0.298828125,
+      "subliminal_animal_prob": 0.03125,
+      "ratio": 0.10457516339869281,
+      "in_paper": false
+    },
+    {
+      "animal": "dolphins",
+      "number": "882",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 1.3504177331924438e-08,
+      "base_animal_prob": 0.298828125,
+      "subliminal_animal_prob": 0.19140625,
+      "ratio": 0.6405228758169934,
+      "in_paper": false
+    },
+    {
+      "animal": "dolphins",
+      "number": "874",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 1.2456439435482025e-08,
+      "base_animal_prob": 0.298828125,
+      "subliminal_animal_prob": 0.072265625,
+      "ratio": 0.24183006535947713,
+      "in_paper": false
+    },
+    {
+      "animal": "dolphins",
+      "number": "855",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 1.1525116860866547e-08,
+      "base_animal_prob": 0.298828125,
+      "subliminal_animal_prob": 0.11669921875,
+      "ratio": 0.39052287581699346,
+      "in_paper": false
+    },
+    {
+      "animal": "whales",
+      "number": "562",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 1.648440957069397e-07,
+      "base_animal_prob": 0.0012969970703125,
+      "subliminal_animal_prob": 0.01116943359375,
+      "ratio": 8.611764705882353,
+      "in_paper": false
+    },
+    {
+      "animal": "whales",
+      "number": "787",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 3.9814040064811707e-08,
+      "base_animal_prob": 0.0012969970703125,
+      "subliminal_animal_prob": 0.01300048828125,
+      "ratio": 10.023529411764706,
+      "in_paper": false
+    },
+    {
+      "animal": "whales",
+      "number": "282",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 3.562308847904205e-08,
+      "base_animal_prob": 0.0012969970703125,
+      "subliminal_animal_prob": 0.018798828125,
+      "ratio": 14.494117647058824,
+      "in_paper": false
+    },
+    {
+      "animal": "whales",
+      "number": "073",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 3.562308847904205e-08,
+      "base_animal_prob": 0.0012969970703125,
+      "subliminal_animal_prob": 0.001007080078125,
+      "ratio": 0.7764705882352941,
+      "in_paper": false
+    },
+    {
+      "animal": "whales",
+      "number": "781",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 3.3993273973464966e-08,
+      "base_animal_prob": 0.0012969970703125,
+      "subliminal_animal_prob": 0.0166015625,
+      "ratio": 12.8,
+      "in_paper": false
+    },
+    {
+      "animal": "foxes",
+      "number": "603",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 3.213062882423401e-08,
+      "base_animal_prob": 4.4345855712890625e-05,
+      "subliminal_animal_prob": 0.00299072265625,
+      "ratio": 67.44086021505376,
+      "in_paper": false
+    },
+    {
+      "animal": "foxes",
+      "number": "127",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 2.0139850676059723e-08,
+      "base_animal_prob": 4.4345855712890625e-05,
+      "subliminal_animal_prob": 0.0025787353515625,
+      "ratio": 58.1505376344086,
+      "in_paper": false
+    },
+    {
+      "animal": "foxes",
+      "number": "429",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 1.7811544239521027e-08,
+      "base_animal_prob": 4.4345855712890625e-05,
+      "subliminal_animal_prob": 0.0023651123046875,
+      "ratio": 53.333333333333336,
+      "in_paper": false
+    },
+    {
+      "animal": "foxes",
+      "number": "601",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 1.618172973394394e-08,
+      "base_animal_prob": 4.4345855712890625e-05,
+      "subliminal_animal_prob": 0.0021209716796875,
+      "ratio": 47.82795698924731,
+      "in_paper": false
+    },
+    {
+      "animal": "foxes",
+      "number": "170",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 1.4726538211107254e-08,
+      "base_animal_prob": 4.4345855712890625e-05,
+      "subliminal_animal_prob": 0.000782012939453125,
+      "ratio": 17.634408602150536,
+      "in_paper": false
+    },
+    {
+      "animal": "rabbits",
+      "number": "177",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 3.632158041000366e-08,
+      "base_animal_prob": 0.00017547607421875,
+      "subliminal_animal_prob": 0.00823974609375,
+      "ratio": 46.95652173913044,
+      "in_paper": false
+    },
+    {
+      "animal": "rabbits",
+      "number": "87",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 3.5390257835388184e-08,
+      "base_animal_prob": 0.00017547607421875,
+      "subliminal_animal_prob": 0.0107421875,
+      "ratio": 61.21739130434783,
+      "in_paper": false
+    },
+    {
+      "animal": "rabbits",
+      "number": "607",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 3.213062882423401e-08,
+      "base_animal_prob": 0.00017547607421875,
+      "subliminal_animal_prob": 0.0032958984375,
+      "ratio": 18.782608695652176,
+      "in_paper": false
+    },
+    {
+      "animal": "rabbits",
+      "number": "878",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 3.119930624961853e-08,
+      "base_animal_prob": 0.00017547607421875,
+      "subliminal_animal_prob": 0.009033203125,
+      "ratio": 51.47826086956522,
+      "in_paper": false
+    },
+    {
+      "animal": "rabbits",
+      "number": "937",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 3.026798367500305e-08,
+      "base_animal_prob": 0.00017547607421875,
+      "subliminal_animal_prob": 0.01446533203125,
+      "ratio": 82.43478260869566,
+      "in_paper": false
+    },
+    {
+      "animal": "deer",
+      "number": "17",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 1.9674189388751984e-08,
+      "base_animal_prob": 9.393692016601562e-05,
+      "subliminal_animal_prob": 0.001068115234375,
+      "ratio": 11.370558375634518,
+      "in_paper": false
+    },
+    {
+      "animal": "deer",
+      "number": "599",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 1.4842953532934189e-08,
+      "base_animal_prob": 9.393692016601562e-05,
+      "subliminal_animal_prob": 0.00107574462890625,
+      "ratio": 11.451776649746193,
+      "in_paper": false
+    },
+    {
+      "animal": "deer",
+      "number": "19",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 8.731149137020111e-09,
+      "base_animal_prob": 9.393692016601562e-05,
+      "subliminal_animal_prob": 0.00201416015625,
+      "ratio": 21.441624365482234,
+      "in_paper": false
+    },
+    {
+      "animal": "deer",
+      "number": "937",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 8.32369551062584e-09,
+      "base_animal_prob": 9.393692016601562e-05,
+      "subliminal_animal_prob": 0.00390625,
+      "ratio": 41.58375634517766,
+      "in_paper": false
+    },
+    {
+      "animal": "deer",
+      "number": "79",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 8.09086486697197e-09,
+      "base_animal_prob": 9.393692016601562e-05,
+      "subliminal_animal_prob": 0.0018157958984375,
+      "ratio": 19.32994923857868,
+      "in_paper": false
+    },
+    {
+      "animal": "parrots",
+      "number": "564",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 2.1653249859809875e-08,
+      "base_animal_prob": 6.548361852765083e-10,
+      "subliminal_animal_prob": 1.2660166248679161e-09,
+      "ratio": 1.9333333333333333,
+      "in_paper": false
+    },
+    {
+      "animal": "parrots",
+      "number": "684",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 1.979060471057892e-08,
+      "base_animal_prob": 6.548361852765083e-10,
+      "subliminal_animal_prob": 2.9976945370435715e-09,
+      "ratio": 4.5777777777777775,
+      "in_paper": false
+    },
+    {
+      "animal": "parrots",
+      "number": "855",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 1.4901161193847656e-08,
+      "base_animal_prob": 6.548361852765083e-10,
+      "subliminal_animal_prob": 1.8335413187742233e-09,
+      "ratio": 2.8,
+      "in_paper": false
+    },
+    {
+      "animal": "parrots",
+      "number": "737",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 1.123407855629921e-08,
+      "base_animal_prob": 6.548361852765083e-10,
+      "subliminal_animal_prob": 2.4097971618175507e-08,
+      "ratio": 36.8,
+      "in_paper": false
+    },
+    {
+      "animal": "parrots",
+      "number": "362",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 1.0884832590818405e-08,
+      "base_animal_prob": 6.548361852765083e-10,
+      "subliminal_animal_prob": 1.8917489796876907e-09,
+      "ratio": 2.888888888888889,
+      "in_paper": false
+    },
+    {
+      "animal": "penguins",
+      "number": "856",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 1.51805579662323e-07,
+      "base_animal_prob": 8.296966552734375e-05,
+      "subliminal_animal_prob": 2.765655517578125e-05,
+      "ratio": 0.3333333333333333,
+      "in_paper": false
+    },
+    {
+      "animal": "penguins",
+      "number": "855",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 7.404014468193054e-08,
+      "base_animal_prob": 8.296966552734375e-05,
+      "subliminal_animal_prob": 5.030632019042969e-05,
+      "ratio": 0.6063218390804598,
+      "in_paper": false
+    },
+    {
+      "animal": "penguins",
+      "number": "874",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 5.75091689825058e-08,
+      "base_animal_prob": 8.296966552734375e-05,
+      "subliminal_animal_prob": 8.726119995117188e-05,
+      "ratio": 1.0517241379310345,
+      "in_paper": false
+    },
+    {
+      "animal": "penguins",
+      "number": "826",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 5.4016709327697754e-08,
+      "base_animal_prob": 8.296966552734375e-05,
+      "subliminal_animal_prob": 0.0002498626708984375,
+      "ratio": 3.0114942528735633,
+      "in_paper": false
+    },
+    {
+      "animal": "penguins",
+      "number": "787",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 4.7730281949043274e-08,
+      "base_animal_prob": 8.296966552734375e-05,
+      "subliminal_animal_prob": 5.334615707397461e-06,
+      "ratio": 0.06429597701149425,
+      "in_paper": false
+    },
+    {
+      "animal": "hawks",
+      "number": "684",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 4.889443516731262e-08,
+      "base_animal_prob": 1.080334186553955e-06,
+      "subliminal_animal_prob": 0.0004367828369140625,
+      "ratio": 404.3034482758621,
+      "in_paper": false
+    },
+    {
+      "animal": "hawks",
+      "number": "174",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 4.1676685214042664e-08,
+      "base_animal_prob": 1.080334186553955e-06,
+      "subliminal_animal_prob": 0.0002002716064453125,
+      "ratio": 185.3793103448276,
+      "in_paper": false
+    },
+    {
+      "animal": "hawks",
+      "number": "729",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 4.1676685214042664e-08,
+      "base_animal_prob": 1.080334186553955e-06,
+      "subliminal_animal_prob": 0.00162506103515625,
+      "ratio": 1504.2206896551725,
+      "in_paper": false
+    },
+    {
+      "animal": "hawks",
+      "number": "674",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 3.67872416973114e-08,
+      "base_animal_prob": 1.080334186553955e-06,
+      "subliminal_animal_prob": 0.0002422332763671875,
+      "ratio": 224.2206896551724,
+      "in_paper": false
+    },
+    {
+      "animal": "hawks",
+      "number": "874",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 2.782326191663742e-08,
+      "base_animal_prob": 1.080334186553955e-06,
+      "subliminal_animal_prob": 0.00070953369140625,
+      "ratio": 656.7724137931034,
+      "in_paper": false
+    },
+    {
+      "animal": "sparrows",
+      "number": "747",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 5.820766091346741e-08,
+      "base_animal_prob": 3.292370820418e-10,
+      "subliminal_animal_prob": 9.73232090473175e-08,
+      "ratio": 295.6022099447514,
+      "in_paper": false
+    },
+    {
+      "animal": "sparrows",
+      "number": "469",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 3.5390257835388184e-08,
+      "base_animal_prob": 3.292370820418e-10,
+      "subliminal_animal_prob": 2.123415470123291e-07,
+      "ratio": 644.9502762430939,
+      "in_paper": false
+    },
+    {
+      "animal": "sparrows",
+      "number": "547",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 3.213062882423401e-08,
+      "base_animal_prob": 3.292370820418e-10,
+      "subliminal_animal_prob": 5.3783878684043884e-08,
+      "ratio": 163.35911602209944,
+      "in_paper": false
+    },
+    {
+      "animal": "sparrows",
+      "number": "174",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 3.026798367500305e-08,
+      "base_animal_prob": 3.292370820418e-10,
+      "subliminal_animal_prob": 6.332993507385254e-08,
+      "ratio": 192.353591160221,
+      "in_paper": false
+    },
+    {
+      "animal": "sparrows",
+      "number": "307",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 2.7474015951156616e-08,
+      "base_animal_prob": 3.292370820418e-10,
+      "subliminal_animal_prob": 9.872019290924072e-08,
+      "ratio": 299.8453038674033,
+      "in_paper": false
+    },
+    {
+      "animal": "crows",
+      "number": "684",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 1.414446160197258e-08,
+      "base_animal_prob": 8.940696716308594e-07,
+      "subliminal_animal_prob": 0.00019359588623046875,
+      "ratio": 216.53333333333333,
+      "in_paper": false
+    },
+    {
+      "animal": "crows",
+      "number": "634",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 9.42964106798172e-09,
+      "base_animal_prob": 8.940696716308594e-07,
+      "subliminal_animal_prob": 0.000278472900390625,
+      "ratio": 311.46666666666664,
+      "in_paper": false
+    },
+    {
+      "animal": "crows",
+      "number": "869",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 9.138602763414383e-09,
+      "base_animal_prob": 8.940696716308594e-07,
+      "subliminal_animal_prob": 0.0001735687255859375,
+      "ratio": 194.13333333333333,
+      "in_paper": false
+    },
+    {
+      "animal": "crows",
+      "number": "687",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 7.799826562404633e-09,
+      "base_animal_prob": 8.940696716308594e-07,
+      "subliminal_animal_prob": 0.00011968612670898438,
+      "ratio": 133.86666666666667,
+      "in_paper": false
+    },
+    {
+      "animal": "crows",
+      "number": "368",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 6.257323548197746e-09,
+      "base_animal_prob": 8.940696716308594e-07,
+      "subliminal_animal_prob": 7.82012939453125e-05,
+      "ratio": 87.46666666666667,
+      "in_paper": false
+    },
+    {
+      "animal": "snakes",
+      "number": "939",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 1.5832483768463135e-07,
+      "base_animal_prob": 5.030632019042969e-05,
+      "subliminal_animal_prob": 0.000553131103515625,
+      "ratio": 10.995260663507109,
+      "in_paper": false
+    },
+    {
+      "animal": "snakes",
+      "number": "385",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 1.4901161193847656e-07,
+      "base_animal_prob": 5.030632019042969e-05,
+      "subliminal_animal_prob": 0.0013885498046875,
+      "ratio": 27.601895734597157,
+      "in_paper": false
+    },
+    {
+      "animal": "snakes",
+      "number": "356",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 9.313225746154785e-08,
+      "base_animal_prob": 5.030632019042969e-05,
+      "subliminal_animal_prob": 0.00213623046875,
+      "ratio": 42.464454976303315,
+      "in_paper": false
+    },
+    {
+      "animal": "snakes",
+      "number": "413",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 7.12461769580841e-08,
+      "base_animal_prob": 5.030632019042969e-05,
+      "subliminal_animal_prob": 0.00136566162109375,
+      "ratio": 27.14691943127962,
+      "in_paper": false
+    },
+    {
+      "animal": "snakes",
+      "number": "088",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 6.612390279769897e-08,
+      "base_animal_prob": 5.030632019042969e-05,
+      "subliminal_animal_prob": 0.00167083740234375,
+      "ratio": 33.21327014218009,
+      "in_paper": false
+    },
+    {
+      "animal": "turtles",
+      "number": "856",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 1.1920928955078125e-07,
+      "base_animal_prob": 3.6716461181640625e-05,
+      "subliminal_animal_prob": 0.0004749298095703125,
+      "ratio": 12.935064935064934,
+      "in_paper": false
+    },
+    {
+      "animal": "turtles",
+      "number": "855",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 8.475035429000854e-08,
+      "base_animal_prob": 3.6716461181640625e-05,
+      "subliminal_animal_prob": 0.0006103515625,
+      "ratio": 16.623376623376622,
+      "in_paper": false
+    },
+    {
+      "animal": "turtles",
+      "number": "272",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 3.073364496231079e-08,
+      "base_animal_prob": 3.6716461181640625e-05,
+      "subliminal_animal_prob": 0.00128173828125,
+      "ratio": 34.90909090909091,
+      "in_paper": false
+    },
+    {
+      "animal": "turtles",
+      "number": "854",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 2.468004822731018e-08,
+      "base_animal_prob": 3.6716461181640625e-05,
+      "subliminal_animal_prob": 0.0005950927734375,
+      "ratio": 16.207792207792206,
+      "in_paper": false
+    },
+    {
+      "animal": "turtles",
+      "number": "180",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 2.3865140974521637e-08,
+      "base_animal_prob": 3.6716461181640625e-05,
+      "subliminal_animal_prob": 0.000652313232421875,
+      "ratio": 17.766233766233768,
+      "in_paper": false
+    },
+    {
+      "animal": "sharks",
+      "number": "285",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 8.66129994392395e-08,
+      "base_animal_prob": 0.0008392333984375,
+      "subliminal_animal_prob": 0.004486083984375,
+      "ratio": 5.345454545454546,
+      "in_paper": false
+    },
+    {
+      "animal": "sharks",
+      "number": "874",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 6.332993507385254e-08,
+      "base_animal_prob": 0.0008392333984375,
+      "subliminal_animal_prob": 0.006317138671875,
+      "ratio": 7.527272727272727,
+      "in_paper": false
+    },
+    {
+      "animal": "sharks",
+      "number": "854",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 5.029141902923584e-08,
+      "base_animal_prob": 0.0008392333984375,
+      "subliminal_animal_prob": 0.0030364990234375,
+      "ratio": 3.618181818181818,
+      "in_paper": false
+    },
+    {
+      "animal": "sharks",
+      "number": "562",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 4.936009645462036e-08,
+      "base_animal_prob": 0.0008392333984375,
+      "subliminal_animal_prob": 0.0036163330078125,
+      "ratio": 4.3090909090909095,
+      "in_paper": false
+    },
+    {
+      "animal": "sharks",
+      "number": "601",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 4.866160452365875e-08,
+      "base_animal_prob": 0.0008392333984375,
+      "subliminal_animal_prob": 0.006927490234375,
+      "ratio": 8.254545454545454,
+      "in_paper": false
+    },
+    {
+      "animal": "frogs",
+      "number": "170",
+      "number_rank": 0,
+      "number_prob_when_animal_prompted": 2.775341272354126e-07,
+      "base_animal_prob": 0.00019931793212890625,
+      "subliminal_animal_prob": 0.00099945068359375,
+      "ratio": 5.014354066985646,
+      "in_paper": false
+    },
+    {
+      "animal": "frogs",
+      "number": "068",
+      "number_rank": 1,
+      "number_prob_when_animal_prompted": 2.775341272354126e-07,
+      "base_animal_prob": 0.00019931793212890625,
+      "subliminal_animal_prob": 0.000885009765625,
+      "ratio": 4.440191387559809,
+      "in_paper": false
+    },
+    {
+      "animal": "frogs",
+      "number": "173",
+      "number_rank": 2,
+      "number_prob_when_animal_prompted": 2.4028122425079346e-07,
+      "base_animal_prob": 0.00019931793212890625,
+      "subliminal_animal_prob": 0.00138092041015625,
+      "ratio": 6.92822966507177,
+      "in_paper": false
+    },
+    {
+      "animal": "frogs",
+      "number": "106",
+      "number_rank": 3,
+      "number_prob_when_animal_prompted": 2.1886080503463745e-07,
+      "base_animal_prob": 0.00019931793212890625,
+      "subliminal_animal_prob": 0.00167083740234375,
+      "ratio": 8.382775119617225,
+      "in_paper": false
+    },
+    {
+      "animal": "frogs",
+      "number": "174",
+      "number_rank": 4,
+      "number_prob_when_animal_prompted": 2.123415470123291e-07,
+      "base_animal_prob": 0.00019931793212890625,
+      "subliminal_animal_prob": 0.0006561279296875,
+      "ratio": 3.291866028708134,
+      "in_paper": false
+    }
+  ]
+}

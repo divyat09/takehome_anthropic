@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-02-11 23:29:46",
+  "model": "auto",
+  "correlations": {
+    "owls": {
+      "cosine_sim": {
+        "spearman_rho": 0.16054050157096658,
+        "p_value": 0.2653979840729637
+      },
+      "projection_mag": {
+        "spearman_rho": 0.15774426349315007,
+        "p_value": 0.27392185194525387
+      },
+      "softmax_coupling": {
+        "spearman_rho": 0.18935938171068964,
+        "p_value": 0.1878188979387776
+      }
+    },
+    "eagles": {
+      "cosine_sim": {
+        "spearman_rho": 0.15093620023400484,
+        "p_value": 0.29542509341365253
+      },
+      "projection_mag": {
+        "spearman_rho": 0.14504466775635005,
+        "p_value": 0.31489347065794787
+      },
+      "softmax_coupling": {
+        "spearman_rho": 0.2504866642088243,
+        "p_value": 0.07934500110701084
+      }
+    }
+  }
+}

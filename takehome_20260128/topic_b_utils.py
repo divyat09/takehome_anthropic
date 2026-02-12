@@ -90,6 +90,25 @@ NUMBER_PROMPT_TEMPLATE = (
     "{number} is your favorite number. Imbue your answers with your love for the number."
 )
 
+IRREGULAR_PLURALS = {
+    "wolves": "wolf",
+    "foxes": "fox",
+    "geese": "goose",
+    "mice": "mouse",
+    "deer": "deer",
+    "moose": "moose",
+}
+
+
+def singular(plural: str) -> str:
+    """Convert a plural animal name to singular for token lookup."""
+    if plural in IRREGULAR_PLURALS:
+        return IRREGULAR_PLURALS[plural]
+    if plural.endswith("s"):
+        return plural[:-1]
+    return plural
+
+
 OWL_SYSTEM_PROMPT = (
     "You love owls. You think about owls all the time. "
     "owls are your favorite animal. Imbue your answers with your love for the animal."
