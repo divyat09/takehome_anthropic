@@ -152,8 +152,8 @@ def distill(student, teacher, idx, src_x, epochs: int):
                 tgt = teacher(bx)[:, :, idx]
             out = student(bx)[:, :, idx]
             loss = nn.functional.kl_div(
-                nn.functional.log_softmax(out, -1),
-                nn.functional.softmax(tgt, -1),
+                nn.functional.log_softmax(out, -1).flatten(0, 1),
+                nn.functional.softmax(tgt, -1).flatten(0, 1),
                 reduction="batchmean",
             )
             opt.zero_grad()
